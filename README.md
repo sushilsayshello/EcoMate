@@ -123,6 +123,11 @@ Supporting the transition to renewable energy sources.
 Minimizing waste and conserving natural resources.
 This portfolio outlines EcoMate as a robust solution that integrates multiple facets of energy management, solar adoption, and environmental monitoring into a single platform, showcasing its comprehensive approach to addressing New Zealand's challenges.
 </br>
+![Simulator Screenshot - iPhone 15 Pro - 2024-09-08 at 22 26 08](https://github.com/user-attachments/assets/3a787552-e09b-4aab-b8a5-76b3ade0c0da)</br>
+![Simulator Screenshot - iPhone 15 Pro - 2024-09-08 at 22 26 14](https://github.com/user-attachments/assets/26a19269-f016-4183-a91e-13a88f47a857)</br>
+![Simulator Screenshot - iPhone 15 Pro - 2024-09-08 at 22 26 24](https://github.com/user-attachments/assets/ec79d06e-d686-46af-a85f-18bcd3f56347)</br>
+![Simulator Screenshot - iPhone 15 Pro - 2024-09-08 at 22 26 30](https://github.com/user-attachments/assets/1bee55fd-6df8-497f-a76c-12ad47fd62cc)</br>
+
 
 <img width="1189" alt="Screenshot 2024-09-07 at 5 42 34 PM" src="https://github.com/user-attachments/assets/be263e39-53c2-4353-996b-d9842d96294c"> </br>
 
