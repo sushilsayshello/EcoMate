@@ -14,6 +14,14 @@
 		84016D852C8DCE920015422D /* EnergyManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D842C8DCE920015422D /* EnergyManagementView.swift */; };
 		84016D872C8DCEAF0015422D /* SolarAdoptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D862C8DCEAF0015422D /* SolarAdoptionView.swift */; };
 		84016D892C8DCEC40015422D /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D882C8DCEC40015422D /* FeedbackView.swift */; };
+		8430A1372C9D8C8400449BB4 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A1362C9D8C8400449BB4 /* RegistrationView.swift */; };
+		8430A1392C9D8C9600449BB4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A1382C9D8C9600449BB4 /* ProfileView.swift */; };
+		8430A13B2C9D8CEF00449BB4 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A13A2C9D8CEF00449BB4 /* AchievementsView.swift */; };
+		8430A13D2C9D8EA700449BB4 /* SolarInstallationARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A13C2C9D8EA700449BB4 /* SolarInstallationARView.swift */; };
+		8430A13F2C9D934600449BB4 /* EnergyUsageBreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A13E2C9D934500449BB4 /* EnergyUsageBreakdownView.swift */; };
+		8430A1412C9D937800449BB4 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A1402C9D937800449BB4 /* AlertsView.swift */; };
+		8430A1432C9D93DE00449BB4 /* EnergySavingsSimulatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A1422C9D93DE00449BB4 /* EnergySavingsSimulatorView.swift */; };
+		8430A1452C9D943E00449BB4 /* SmartHomeIntegrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A1442C9D943E00449BB4 /* SmartHomeIntegrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +33,14 @@
 		84016D842C8DCE920015422D /* EnergyManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyManagementView.swift; sourceTree = "<group>"; };
 		84016D862C8DCEAF0015422D /* SolarAdoptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarAdoptionView.swift; sourceTree = "<group>"; };
 		84016D882C8DCEC40015422D /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		8430A1362C9D8C8400449BB4 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		8430A1382C9D8C9600449BB4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8430A13A2C9D8CEF00449BB4 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		8430A13C2C9D8EA700449BB4 /* SolarInstallationARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarInstallationARView.swift; sourceTree = "<group>"; };
+		8430A13E2C9D934500449BB4 /* EnergyUsageBreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyUsageBreakdownView.swift; sourceTree = "<group>"; };
+		8430A1402C9D937800449BB4 /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		8430A1422C9D93DE00449BB4 /* EnergySavingsSimulatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergySavingsSimulatorView.swift; sourceTree = "<group>"; };
+		8430A1442C9D943E00449BB4 /* SmartHomeIntegrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeIntegrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				84016D802C8DCE560015422D /* DashboardView.swift */,
+				8430A13E2C9D934500449BB4 /* EnergyUsageBreakdownView.swift */,
+				8430A1402C9D937800449BB4 /* AlertsView.swift */,
+				8430A1422C9D93DE00449BB4 /* EnergySavingsSimulatorView.swift */,
+				8430A1442C9D943E00449BB4 /* SmartHomeIntegrationView.swift */,
+				8430A1362C9D8C8400449BB4 /* RegistrationView.swift */,
+				8430A1382C9D8C9600449BB4 /* ProfileView.swift */,
+				8430A13A2C9D8CEF00449BB4 /* AchievementsView.swift */,
 				84016D822C8DCE790015422D /* EcoMateApp.swift */,
 				84016D842C8DCE920015422D /* EnergyManagementView.swift */,
 				84016D862C8DCEAF0015422D /* SolarAdoptionView.swift */,
 				84016D882C8DCEC40015422D /* FeedbackView.swift */,
+				8430A13C2C9D8EA700449BB4 /* SolarInstallationARView.swift */,
 				84016D762C8DCD140015422D /* Assets.xcassets */,
 				84016D782C8DCD140015422D /* Preview Content */,
 			);
@@ -147,10 +171,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8430A1412C9D937800449BB4 /* AlertsView.swift in Sources */,
+				8430A13B2C9D8CEF00449BB4 /* AchievementsView.swift in Sources */,
 				84016D872C8DCEAF0015422D /* SolarAdoptionView.swift in Sources */,
 				84016D892C8DCEC40015422D /* FeedbackView.swift in Sources */,
 				84016D832C8DCE790015422D /* EcoMateApp.swift in Sources */,
+				8430A1372C9D8C8400449BB4 /* RegistrationView.swift in Sources */,
+				8430A1432C9D93DE00449BB4 /* EnergySavingsSimulatorView.swift in Sources */,
+				8430A13D2C9D8EA700449BB4 /* SolarInstallationARView.swift in Sources */,
+				8430A13F2C9D934600449BB4 /* EnergyUsageBreakdownView.swift in Sources */,
 				84016D812C8DCE560015422D /* DashboardView.swift in Sources */,
+				8430A1452C9D943E00449BB4 /* SmartHomeIntegrationView.swift in Sources */,
+				8430A1392C9D8C9600449BB4 /* ProfileView.swift in Sources */,
 				84016D852C8DCE920015422D /* EnergyManagementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
