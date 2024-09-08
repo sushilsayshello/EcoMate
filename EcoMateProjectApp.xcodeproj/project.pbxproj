@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84016D732C8DCD110015422D /* EcoMateProjectAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D722C8DCD110015422D /* EcoMateProjectAppApp.swift */; };
-		84016D752C8DCD110015422D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D742C8DCD110015422D /* ContentView.swift */; };
 		84016D772C8DCD140015422D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84016D762C8DCD140015422D /* Assets.xcassets */; };
 		84016D7A2C8DCD140015422D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84016D792C8DCD140015422D /* Preview Assets.xcassets */; };
+		84016D812C8DCE560015422D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D802C8DCE560015422D /* DashboardView.swift */; };
+		84016D832C8DCE790015422D /* EcoMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D822C8DCE790015422D /* EcoMateApp.swift */; };
+		84016D852C8DCE920015422D /* EnergyManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D842C8DCE920015422D /* EnergyManagementView.swift */; };
+		84016D872C8DCEAF0015422D /* SolarAdoptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D862C8DCEAF0015422D /* SolarAdoptionView.swift */; };
+		84016D892C8DCEC40015422D /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84016D882C8DCEC40015422D /* FeedbackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84016D6F2C8DCD110015422D /* EcoMateProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoMateProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84016D722C8DCD110015422D /* EcoMateProjectAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMateProjectAppApp.swift; sourceTree = "<group>"; };
-		84016D742C8DCD110015422D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84016D762C8DCD140015422D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84016D792C8DCD140015422D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84016D802C8DCE560015422D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		84016D822C8DCE790015422D /* EcoMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoMateApp.swift; sourceTree = "<group>"; };
+		84016D842C8DCE920015422D /* EnergyManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyManagementView.swift; sourceTree = "<group>"; };
+		84016D862C8DCEAF0015422D /* SolarAdoptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarAdoptionView.swift; sourceTree = "<group>"; };
+		84016D882C8DCEC40015422D /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		84016D712C8DCD110015422D /* EcoMateProjectApp */ = {
 			isa = PBXGroup;
 			children = (
-				84016D722C8DCD110015422D /* EcoMateProjectAppApp.swift */,
-				84016D742C8DCD110015422D /* ContentView.swift */,
+				84016D802C8DCE560015422D /* DashboardView.swift */,
+				84016D822C8DCE790015422D /* EcoMateApp.swift */,
+				84016D842C8DCE920015422D /* EnergyManagementView.swift */,
+				84016D862C8DCEAF0015422D /* SolarAdoptionView.swift */,
+				84016D882C8DCEC40015422D /* FeedbackView.swift */,
 				84016D762C8DCD140015422D /* Assets.xcassets */,
 				84016D782C8DCD140015422D /* Preview Content */,
 			);
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					84016D6E2C8DCD110015422D = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -137,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84016D752C8DCD110015422D /* ContentView.swift in Sources */,
-				84016D732C8DCD110015422D /* EcoMateProjectAppApp.swift in Sources */,
+				84016D872C8DCEAF0015422D /* SolarAdoptionView.swift in Sources */,
+				84016D892C8DCEC40015422D /* FeedbackView.swift in Sources */,
+				84016D832C8DCE790015422D /* EcoMateApp.swift in Sources */,
+				84016D812C8DCE560015422D /* DashboardView.swift in Sources */,
+				84016D852C8DCE920015422D /* EnergyManagementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoMateProjectApp/Preview Content\"";
@@ -288,6 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = vu.com.sushil.EcoMateProjectApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoMateProjectApp/Preview Content\"";
