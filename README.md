@@ -114,13 +114,35 @@ EcoMate aligns with global sustainability values, promoting energy efficiency, s
 
 Here are some screenshots showcasing EcoMate in action:
 
-<img src="https://github.com/user-attachments/assets/3a787552-e09b-4aab-b8a5-76b3ade0c0da" width="400"/> </br>
+<img width="281" alt="Screenshot 2024-09-20 at 9 57 58 PM" src="https://github.com/user-attachments/assets/1d820e52-c2af-47bf-8539-32dba1fc5c1a">
 
-<img src="https://github.com/user-attachments/assets/26a19269-f016-4183-a91e-13a88f47a857" width="400"/> </br>
+<img width="281" alt="Screenshot 2024-09-20 at 10 03 16 PM" src="https://github.com/user-attachments/assets/e4c58cae-8dfc-42fd-b452-589faaaa11f4">
 
-<img src="https://github.com/user-attachments/assets/ec79d06e-d686-46af-a85f-18bcd3f56347" width="400"/> </br>
+<img width="281" alt="Screenshot 2024-09-20 at 9 58 47 PM" src="https://github.com/user-attachments/assets/78fbcc42-61ee-43e5-9909-49a4128f3aaa">
 
-<img src="https://github.com/user-attachments/assets/1bee55fd-6df8-497f-a76c-12ad47fd62cc" width="400"/> </br>
+<img width="281" alt="Screenshot 2024-09-20 at 9 59 28 PM" src="https://github.com/user-attachments/assets/b0b203c9-f177-417f-8b22-11341c7c6552">
+
+<img width="281" alt="Screenshot 2024-09-20 at 9 59 22 PM" src="https://github.com/user-attachments/assets/c08ea479-a9a1-46e2-8ebf-dbcde3ad9d20">
+
+<img width="281" alt="Screenshot 2024-09-20 at 9 59 35 PM" src="https://github.com/user-attachments/assets/602fb76a-8c98-4aaf-a077-44a7621c9317">
+
+<img width="281" alt="Screenshot 2024-09-20 at 10 00 02 PM" src="https://github.com/user-attachments/assets/f04b5cab-70ac-44e7-af92-600ca4a54fed">
+
+<img width="281" alt="Screenshot 2024-09-20 at 10 00 56 PM" src="https://github.com/user-attachments/assets/978f6b96-2b8f-4445-ad0e-8238b36016e2">
+
+<img width="281" alt="Screenshot 2024-09-20 at 10 01 05 PM" src="https://github.com/user-attachments/assets/3efac1de-751b-44a1-9841-111a903bb206">
+
+<img width="281" alt="Screenshot 2024-09-20 at 10 01 12 PM" src="https://github.com/user-attachments/assets/abbbedb1-b452-4c06-8e4d-29920e7017df">
+
+<img width="281" alt="Screenshot 2024-09-20 at 10 01 17 PM" src="https://github.com/user-attachments/assets/902437ca-b22e-4419-ab8e-682e61622d34">
+
+<img width="281" alt="Screenshot 2024-09-20 at 10 01 29 PM" src="https://github.com/user-attachments/assets/1af79850-657c-42fc-b2c3-f2eca41a4e46">
+
+<img width="281" alt="Screenshot 2024-09-20 at 9 24 33 PM" src="https://github.com/user-attachments/assets/428c54b1-7812-4a53-8655-c21d825616e1">
+
+<img width="281" alt="Screenshot 2024-09-20 at 9 58 30 PM" src="https://github.com/user-attachments/assets/acd6923b-ee3b-4790-b1de-2dea04f8a2c2">
+
+
 
 ---
 
