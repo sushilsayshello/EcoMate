@@ -2,6 +2,8 @@
 
 ![EcoMate](https://github.com/user-attachments/assets/a2e2a757-738b-45e3-8e21-c404c37a1679) </br>
 
+https://ai.invideo.io/watch/4LDFMrljORK 
+
 EcoMate is an all-in-one platform that addresses the critical challenges of renewable energy site selection, energy planning, solar energy adoption, and community-driven environmental sustainability. The app provides comprehensive solutions for policymakers, communities, and individuals to make informed decisions about energy and environmental conservation, promoting a greener and more sustainable future.
 
 ---
