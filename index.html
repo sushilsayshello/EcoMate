@@ -10,12 +10,14 @@
             margin: 0;
             padding: 0;
             color: #333;
+            background: linear-gradient(to bottom right, #e0f7fa, #a5d6a7);
         }
         header {
             background: #4CAF50;
             color: white;
-            padding: 10px 0;
+            padding: 15px 0;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
         nav ul {
             list-style: none;
@@ -30,48 +32,95 @@
             color: white;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffd54f;
         }
         .hero {
-            background: #e0f7fa;
-            padding: 50px 20px;
+            background: #ffcc80;
+            padding: 60px 20px;
             text-align: center;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .hero h1 {
             margin: 0;
-            font-size: 2.5em;
+            font-size: 3em;
         }
         .hero button {
             background: #4CAF50;
             color: white;
             border: none;
-            padding: 10px 20px;
-            font-size: 1em;
+            padding: 12px 25px;
+            font-size: 1.2em;
             cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .hero button:hover {
+            background: #388e3c;
         }
         .section {
-            padding: 20px;
+            padding: 30px;
             text-align: center;
-        }
-        .features, .solutions, .contact {
-            background: #f1f1f1;
             margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .features h2, .solutions h2, .contact h2 {
+        .features, .solutions, .solar-adoption, .energy-calculator {
+            background: #f1f1f1;
+        }
+        .features h2, .solutions h2, .solar-adoption h2, .energy-calculator h2 {
             color: #4CAF50;
         }
-        .features img, .solutions img {
-            width: 400px;
+        .features img {
+            width: 300px;
             height: auto;
             margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .features img:hover {
+            transform: scale(1.05);
         }
         footer {
             background: #4CAF50;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
+            padding: 15px 0;
+            position: relative;
             bottom: 0;
             width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="number"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        input[type="submit"]:hover {
+            background: #388e3c;
         }
     </style>
 </head>
@@ -82,8 +131,9 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
+            <li><a href="#solar-adoption">Solar Adoption</a></li>
+            <li><a href="#energy-calculator">Energy Savings Calculator</a></li>
             <li><a href="#solutions">Solutions</a></li>
-            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </header>
@@ -96,38 +146,72 @@
 
 <section id="features" class="section features">
     <h2>Our Features</h2>
-    <img src="https://github.com/user-attachments/assets/3a787552-e09b-4aab-b8a5-76b3ade0c0da" alt="Energy Forecasting">
+    
+    <h3>Energy Management</h3>
+<img width="281" alt="Screenshot 2024-09-20 at 9 24 33 PM" src="https://github.com/user-attachments/assets/428c54b1-7812-4a53-8655-c21d825616e1">
     <p><strong>Energy Forecasting and Optimization:</strong> Predict and manage your energy consumption effectively.</p>
     
-    <img src="https://github.com/user-attachments/assets/26a19269-f016-4183-a91e-13a88f47a857" alt="Solar Energy Adoption">
+    <h3>Solar Adoption</h3>
+<img width="281" alt="Screenshot 2024-09-20 at 9 58 30 PM" src="https://github.com/user-attachments/assets/acd6923b-ee3b-4790-b1de-2dea04f8a2c2">
     <p><strong>Solar Energy Adoption Tool:</strong> Assess solar potential for your property.</p>
     
-    <img src="https://github.com/user-attachments/assets/ec79d06e-d686-46af-a85f-18bcd3f56347" alt="Environmental Monitoring">
+    <h3>Environmental Monitoring</h3>
+<img width="281" alt="Screenshot 2024-09-20 at 10 01 12 PM" src="https://github.com/user-attachments/assets/abbbedb1-b452-4c06-8e4d-29920e7017df">
     <p><strong>Environmental Monitoring via Digital Twin:</strong> Track environmental changes with digital simulations.</p>
+
+    <h3>Energy Usage Insights</h3>
+    <img width="281" alt="Screenshot 2024-09-20 at 10 00 02 PM" src="https://github.com/user-attachments/assets/f04b5cab-70ac-44e7-af92-600ca4a54fed">
+    <p><strong>Track your usage:</strong> Gain insights on where you can reduce consumption.</p>
+
+    <h3>Smart Home Integration</h3>
+ <img width="281" alt="Screenshot 2024-09-20 at 10 01 29 PM" src="https://github.com/user-attachments/assets/1af79850-657c-42fc-b2c3-f2eca41a4e46">
+    <p><strong>Measure your impact:</strong> See how your smart devices are using the energy. </p>
+
+    <h3>Achievements Programs</h3>
+<img width="281" alt="Screenshot 2024-09-20 at 9 59 35 PM" src="https://github.com/user-attachments/assets/602fb76a-8c98-4aaf-a077-44a7621c9317">
+    <p><strong>Learn about achievements</strong> Discover programs and rebates available for energy efficiency improvements.</p>
+</section>
+
+<section id="solar-adoption" class="section solar-adoption">
+    <h2>Solar Adoption Form</h2>
+    <p>Fill out the form below to assess your property's solar potential:</p>
+    <form>
+        <label for="address">Property Address:</label>
+        <input type="text" id="address" name="address" required>
+        
+        <label for="roofType">Roof Type:</label>
+        <input type="text" id="roofType" name="roofType" required>
+        
+        <label for="area">Roof Area (sq. ft.):</label>
+        <input type="number" id="area" name="area" required>
+        
+        <label for="orientation">Roof Orientation:</label>
+        <input type="text" id="orientation" name="orientation" required>
+        
+        <input type="submit" value="Submit for Assessment">
+    </form>
+</section>
+
+<section id="energy-calculator" class="section energy-calculator">
+    <h2>Energy Savings Calculator</h2>
+    <p>Calculate your potential energy savings:</p>
+    <form>
+        <label for="currentUsage">Current Monthly Usage (kWh):</label>
+        <input type="number" id="currentUsage" name="currentUsage" required>
+        
+        <label for="efficiencyImprovement">Expected Efficiency Improvement (%):</label>
+        <input type="number" id="efficiencyImprovement" name="efficiencyImprovement" required>
+        
+        <input type="submit" value="Calculate Savings">
+    </form>
 </section>
 
 <section id="solutions" class="section solutions">
     <h2>Our Solutions</h2>
-  
+    
     <p><strong>For Consumers:</strong> Manage energy and explore solar options.</p>
-    
     <p><strong>For Businesses:</strong> Optimize energy use and track sustainability.</p>
-    
     <p><strong>For Government Agencies:</strong> Get insights and support for energy policy and regulation.</p>
-</section>
-
-<section id="contact" class="section contact">
-    <h2>Contact Us</h2>
-    <p>Have questions? Reach out to us!</p>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-        <input type="submit" value="Send">
-    </form>
 </section>
 
 <footer>
@@ -136,5 +220,3 @@
 
 </body>
 </html>
-
-
