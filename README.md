@@ -1,7 +1,7 @@
 # EcoMate 🌍
 
 ![EcoMate](https://github.com/user-attachments/assets/a2e2a757-738b-45e3-8e21-c404c37a1679)  
-![Our Webpage](https://sushilsayshello.github.io/EcoMate/)  
+Our webpage : https://sushilsayshello.github.io/EcoMate/ 
 
 [📽️ Watch Video](https://ai.invideo.io/watch/4LDFMrljORK)
 
